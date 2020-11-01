@@ -28,6 +28,7 @@ default_l1c_bands = (
     "B07",
     "B08",
     "B09",
+    "B10",
     "B11",
     "B12",
     "B8A",
@@ -45,7 +46,7 @@ class S2L1CReader(MultiBandReader):
         minzoom (int): Dataset's Min Zoom level (default is 8).
         maxzoom (int): Dataset's Max Zoom level (default is 14).
         scene_params (dict): scene id parameters.
-        bands (tuple): list of available bands (default is ('B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B11', 'B12', 'B8A')).
+        bands (tuple): list of available bands (default is ('B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10', 'B11', 'B12', 'B8A')).
         tileInfo (dict): sentinel 2 tileInfo.json content.
         datageom (dict): sentinel 2 data geometry.
 
